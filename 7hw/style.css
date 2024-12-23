@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.header{
+    padding: 10px 0 20px;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+@media (max-width: 700px) {
+    .navigation {
+        display: none;
+    }
+    
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation-list{
+    display: flex;
+    gap: 20px;
+}
+
+.conten-navigation{
+    color: #3D348B;
+    font-family: "PT Sans";
+    font-size: 15px;
+}
+.header-button{
+    background-color: #3D348B;
+    border-radius: 3px;
+    border: #3d348b inset 7px;
+    font-size: 15px;
+    color: aliceblue;
+}
+/* navigation styles ⬆ */
+
+.banner{
+    background: linear-gradient(356deg, #6458bf 0%, rgb(36, 34, 49) 50%, rgb(116, 52, 158) 100%);
+    display: flex;
+    justify-content: center;
+    padding: 190px;
+    
+}
+.banner-title{
+    font-family: "PT Sans";
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.banner-paragraph{
+    font-family: "Lora";
+    color: #d9c6e7;
+    max-width: 900px;
+    padding: 20px ;
+}
+/* banner styles ⬆ */
+
+.services-content{
+    display: flex;
+    gap: 50px;
+    padding: 100px 0 100px 0px;
+}
+
+.services-heading-2{
+    padding-left: 30px;
+    padding-top: 50px;
+    color: #333;
+    font-family: "PT Sans";
+    font-weight: 900;
+    font-size: 30px;
+}
+.services-navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 20px;
+    max-width: 230px;
+    justify-content: center;
+}
+@media (max-width: 835px) {
+
+    .services-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .services-heading-2{
+        display: flex;
+        justify-content: center;
+    }
+    .services-navigation{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        gap: 20px;
+        max-width: none;
+        justify-content: center;
+    }
+        
+}
+
+
+.services-blocks {
+    column-count: 2;
+    gap: 80px;
+    background: radial-gradient(circle, rgba(2,0,36,1) 1%, rgb(81, 73, 153) 41%, rgb(75, 52, 139) 100%);
+    border-radius: 5px;
+}
+
+.cards {
+    font-family: "PT Sans";
+    color: #ffffffc7;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    
+}
+.p-services{
+    font-size: 15px;
+    color: rgb(128 116 173);
+    font-weight: 20;
+}
+
+/* services styles ⬆ */
+
+.about-companies {
+    background-color: rgb(251 251 251);
+  }
+  
+.companies-text{
+    max-height: 200px;
+}
+.h2-companies {
+    color: #333;
+    font-family: "PT Sans";
+    font-weight: 600;
+    font-size: 30px;
+    padding: 40px;
+}
+  
+.p-companies {
+    max-width: 500px;
+    padding: 20px;
+    color: #878787;
+}
+
+@media (max-width: 835px) {
+
+    .companies-content {
+        display: flex;
+        justify-content: center;
+    }
+    .h2-companies{
+        display: flex;
+        justify-content: center;
+    }
+    .companies-text{
+        max-height: none;
+    }
+  
+}
+
+.companies-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 50px;
+    list-style: none;
+    color: #878787;
+}
+  
+.companies-item::before {
+    content: "•";
+    color: #878787;
+}
+
+.IMG{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    padding: 50px;
+}
+
+.photo-request{
+    border: 40px solid #5DB7DE ;
+    border-radius: 10px;
+    background-color: #5DB7DE;
+    color: aliceblue;
+    max-width: 326px;
+}
+  
+.h3-request-companies{
+    display: flex;
+    justify-content: center;
+    font-family: "PT Sans";
+    font-weight: 100;
+    font-size: 10px;
+    white-space: nowrap;
+}
+  
+.p-request-companies{
+    display: flex;
+    position: relative;
+    max-width: 300px;
+    top: 15px;
+    font-family: "PT Sans";
+}
+
+/* companies styles ⬆ */
+
+.footer-first-layer{
+    background-color: #746db1;
+    padding: 10px;
+}
+.footer-content-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerFirst-first-element{
+    color: aliceblue;
+    font-family: "PT Sans";
+}
+
+@media (max-width: 835px) {
+    .footer-first-layer {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        background-color: #746db1;
+        padding: 20px;
+    }
+    .footerSecond-content-info{
+        display: flex;
+        justify-content: space-around;
+        max-width: 600px;
+        flex-wrap: wrap;
+    }
+}
+.footer-second-layer{
+    background-color: #3D348B;
+    padding: 10px;
+}
+
+.footerSecond-content-info{
+    display: flex; 
+    justify-content: space-around; 
+  }
+  
+.text-footer{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+  
+.h2-footer{
+    padding-bottom: 20px; 
+    color: aliceblue;
+    font-family: "PT Sans";
+    font-weight: 1000;
+}
+
+.p-footer{
+    padding-bottom: 20px; 
+    color: rgb(192, 195, 198);
+    font-family: "PT Sans";
+}
+  
+/* footer styles ⬆ */
