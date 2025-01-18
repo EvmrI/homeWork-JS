@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.hw{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: Ballet;
+    font-weight: 550;
+    font-size: 40px;
+}
+.gif{
+    width: 500px; 
+    height: auto;
+}
